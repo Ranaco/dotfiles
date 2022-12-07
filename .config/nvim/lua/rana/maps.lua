@@ -32,3 +32,12 @@ keymap.set('n', '<C-w><left>', '<C-w><')
 keymap.set('n', '<C-w><right>', '<C-w>>')
 keymap.set('n', '<C-w><up>', '<C-w>+')
 keymap.set('n', '<C-w><down>', '<C-w>-')
+
+-- Flutter commands
+keymap.set('n', 'fa', ':FlutterRun')
+keymap.set('n', 'fq', ':FlutterQuit')
+keymap.set('n', 'fr', ':FlutterHotReload')
+keymap.set('n', 'fR', ':FlutterHotRestart')
+keymap.set('n', 'fD', 'FlutterDevices')
+keymap.set('n', 'fE', 'FlutterEmulators')
+keymap.set('n', 'fEL', 'FlutterEmulatorsLaunch')
